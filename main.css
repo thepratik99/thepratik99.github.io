@@ -1,0 +1,174 @@
+.topbar{
+    height: 100px;
+    width: 100%;
+    margin-top: 0px;
+}
+
+h1{
+    color: black;
+    font-family: "Trebuchet MS";
+    font-size: 40px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+p{
+    font-size: 15px;
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-variant: normal;
+}
+
+.data{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: aqua;
+}
+
+.subtitle{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 60px;
+}
+
+h2{
+    color: black;
+    font-family: "Trebuchet MS";
+    font-size: 30px;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 60px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.miles{
+    float: left;
+    width: 47.5%;
+    background-color: rgba(11, 231, 0, 0.6);
+    height: 130px;
+    box-shadow: 5px 5px lightgrey;
+    padding-top: 10px;
+}
+
+.pass{
+    float: right;
+    width: 47.5%;
+    background-color: rgba(11, 231, 0, 0.6);
+    height: 130px;
+    box-shadow: 5px 5px lightgrey;
+    padding-top: 10px;
+}
+
+.dataheader{
+    text-align: left;
+    font-size: 25px;
+    padding-left: 10px;
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    color: black;
+}
+
+.datasubtitle{
+    padding-left: 10px;
+    font-size: 15px;
+    text-align: left;
+    font-family: "Bookman Old Style";
+    font-style: normal;
+    font-variant: normal;
+    color: grey;
+}
+
+.datacontent{
+    padding-right: 10px;
+    font-size: 50px;
+    text-align: right;
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-variant: normal;
+}
+
+.table{
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.popular{
+    height: 60px;
+}
+
+.tablecontent{
+    width: 50%;
+    float: left;
+    margin-left: 25%;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 5px 5px rgb(11, 231, 0);
+    background-color: rgb(243, 243, 243);
+}
+
+.tg td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+}
+
+.tg th {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+}
+
+.tg .tg-c3ow {
+    border-color: rgb(11, 231, 0);
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.tg .tg-uys7 {
+    border-color: rgb(11, 231, 0);
+    text-align: center;
+    font-weight: bold;
+}
+
+.tg .tg-0pky {
+    border-color: rgb(11, 231, 0);
+    text-align: left;
+    vertical-align: top;
+}
+
+.image{
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.para{
+    width: 100%;
+    float: left;
+}

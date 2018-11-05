@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+    <div id="topbar" class="topbar">
+        <h1>Metro Bike Share</h1>
+    </div>
+    <div id="subtitle" class="subtitle">
+        <h2>Data:</h2>
+    </div>
+    <div id="data" class="data">
+        <div id="miles" class="miles">
+            <div class="dataheader">Average Distance Traveled:</div>
+            <div class="datasubtitle">(per trip)</div>
+            <div class="datacontent">2.7 miles</div>
+        </div>
+        <div id="pass" class="pass">
+            <div class="dataheader">Average Number of People:</div>
+            <div class="datasubtitle">(include bike sharing in their daily commute)</div>
+            <div class="datacontent">340</div>
+        </div>
+    </div>
+    <div class="table">
+        <div class="popular">
+            <h2>Most Popular Stations:</h2>
+        </div>
+        <div class="tablecontent">
+            <table class="tg" style="undefined;table-layout: fixed; width: 551px">
+                <colgroup>
+                    <col style="width: 34px">
+                    <col style="width: 186px">
+                    <col style="width: 73px">
+                    <col style="width: 186px">
+                    <col style="width: 72px">
+                </colgroup>
+                <tr>
+                    <th class="tg-uys7" rowspan="2">No.</th>
+                    <th class="tg-c3ow" colspan="2">Starting Station</th>
+                    <th class="tg-c3ow" colspan="2">Ending Station</th>
+                </tr>
+                <tr>
+                    <td class="tg-c3ow">Name</td>
+                    <td class="tg-c3ow">ID</td>
+                    <td class="tg-c3ow">Name</td>
+                    <td class="tg-c3ow">ID</td>
+                </tr>
+                <tr>
+                    <td class="tg-c3ow">1</td>
+                    <td class="tg-0pky">Broadway &amp; 3rd</td>
+                    <td class="tg-0pky">3069</td>
+                    <td class="tg-0pky">7th &amp; Flower</td>
+                    <td class="tg-0pky">3005</td>
+                </tr>
+                <tr>
+                    <td class="tg-c3ow">2</td>
+                    <td class="tg-0pky">Main &amp; 1st</td>
+                    <td class="tg-0pky">3030</td>
+                    <td class="tg-0pky">7th &amp; Spring</td>
+                    <td class="tg-0pky">3031</td>
+                </tr>
+                <tr>
+                    <td class="tg-c3ow">3</td>
+                    <td class="tg-0pky">7th &amp; Flower</td>
+                    <td class="tg-0pky">4883</td>
+                    <td class="tg-0pky">Union Station West Portal</td>
+                    <td class="tg-0pky">3014</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="table">
+        <div class="popular">
+            <h2>Q: How does ridership change with seasons?</h2>
+        </div>
+        <div class="image"><img src="data/TypesOfPass.png" width="100%"></div>
+        <div class="para">
+            <p>
+                &emsp; According to LA's weather history, there are high chances of rain in winter, from December to
+                March. Thus, the average number of trips per day decreases in that time period. However, the average
+                duration of a trip does not change that much. As we can see in the graph, the number of trips done by
+                Walk-ups is pretty close to the number of trips done by Monthly pass holders from August to October.
+                After that, we can see a decrease in the number of trips done by Monthly pass holders from November to
+                March. On the other hand, the number of trips done by walk-ups changes with the same pattern as total
+                trips from November to March. Change in the number of trips done by Flex pass users has a similar
+                pattern to the total trips.
+            </p>
+        </div>
+    </div>
+    <div class="table">
+        <div class="popular">
+            <h2>Q: What is the breakdown of Trip Route Category-Passholder type combinations?</h2>
+        </div>
+        <div class="image"><img src="data/PassVsTrip.png" width="100%"></div>
+        <div class="para">
+            <p>
+                &emsp; According to the graph above, only about 5% of the trips done by Monthly pass or flex pass
+                holders are Round trips. People who purchase a Monthly pass or a Flex pass tend to use the bike share
+                as a part of their regular commute. Thus, they always make one-way trips from their home to work and
+                vice-versa. On the other hand, about 20% of the trips done by walk-ups are Round trips. One way trips
+                cost more money to the company because they have to transport bikes from station to station in order to
+                make sure that there are enough bikes at every station. Round trips start and end at the same station.
+                If the company makes a round trip cheaper than a one way trip for walk-ups, it can increase the
+                percentage of round trips done by walk-ups.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
